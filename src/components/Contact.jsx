@@ -5,7 +5,7 @@ import ContactButton from "./ContactButton";
 const Contact = () => {
   const ContactImage = "/images/HubungiKami.jpg";
   const ContactText =
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, soluta? Esse inventore ex blanditiis quis laboriosam accusamus delectus aliquid laudantium a ipsam iste, animi asperiores";
+    "Silahkan hubungi kami jika ada nya pertanyaan dengan menghubungi salah satu kontak di bawah ini";
   const ContactTitle = "Hubungi Kami";
   return (
     <div className="w-full h-full mb-20">
