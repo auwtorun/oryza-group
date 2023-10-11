@@ -6,14 +6,33 @@ import Images from "/images/obe.jpg";
 import { AiFillEye } from "react-icons/ai";
 
 const OBE = () => {
-  const OBEText =
-    `Beragam model pendekatan atau paradigma OBE yang digunakan dalam pengembangan dan pelaksanaan kurikulum, di antaranya yang paling sederhana
-    terdiri dari tiga tahapan yang saling berinteraksi, dapat dijelaskan secara singkat
-    sebagai berikut.Outcome Based Curriculum (OBC), pengembangan kurikulum yang didasarkan pada profil dan Capaian Pembelajaran Lulusan (CPL).Outcome Based Learning and Teaching (OBLT), pelaksanaan kegiatan
-    pembelajaran yang didefinisikan sebagai interaksi dalam kegiatan belajar
-    antara dosen, mahasiswa, dan sumber belajarOutcome Based Assessment and Evaluation (OBAE), pendekatan penilaian
-    dan evaluasi yang dilakukan pada pencapaian CPL dalam rangka untuk
-    peningkatan kualitas pembelajaran yang berkelanjutan.`;
+  const OBEText = (
+    <div>
+      <p>
+        Beragam model pendekatan atau paradigma OBE yang digunakan dalam
+        pengembangan dan pelaksanaan kurikulum, di antaranya yang paling
+        sederhana terdiri dari tiga tahapan yang saling berinteraksi, dapat
+        dijelaskan secara singkat sebagai berikut.
+      </p>
+      <br />
+      <p>
+        Outcome Based Curriculum (OBC), pengembangan kurikulum yang didasarkan
+        pada profil dan Capaian Pembelajaran Lulusan (CPL).
+      </p>
+      <br />
+      <p>
+        Outcome Based Learning and Teaching (OBLT), pelaksanaan kegiatan
+        pembelajaran yang didefinisikan sebagai interaksi dalam kegiatan belajar
+        antara dosen, mahasiswa, dan sumber belajar.
+      </p>
+      <br />
+      <p>
+        Outcome Based Assessment and Evaluation (OBAE), pendekatan penilaian dan
+        evaluasi yang dilakukan pada pencapaian CPL dalam rangka untuk
+        peningkatan kualitas pembelajaran yang berkelanjutan
+      </p>
+    </div>
+  );
   const OBETitle = "Outcome Based Education";
 
   const [isModalOpen, setIsModalOpen] = useState(false);
