@@ -5,7 +5,7 @@ import HubungiKamiButton from "./HubungiKamiButton";
 const HubungiKami = () => {
   const HubungiKamiImage = "/images/HubungiKami.jpg";
   const HubungiKamiText =
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, soluta? Esse inventore ex blanditiis quis laboriosam accusamus delectus aliquid laudantium a ipsam iste, animi asperiores";
+    "Silahkan hubungi kami jika ada nya pertanyaan dengan menghubungi salah satu kontak di bawah ini";
   const HubungiKamiTitle = "Hubungi Kami";
   return (
     <div className="w-full h-full mb-20">
