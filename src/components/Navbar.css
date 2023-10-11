@@ -1,0 +1,11 @@
+* {
+  color: #fff;
+}
+
+nav {
+  background-color: #083442;
+}
+
+nav .menu {
+  transition: height 0.3s ease-in-out;
+}
